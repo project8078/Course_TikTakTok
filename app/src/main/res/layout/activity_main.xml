@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="club.project8078.tictaktoy.MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/button_1"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginRight="3pt"
+                android:layout_marginTop="3pt"
+                android:onClick="button_Click"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="176dp" />
+
+            <Button
+                android:id="@+id/button_2"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginRight="3pt"
+                android:layout_marginTop="3pt"
+                android:onClick="button_Click"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="88dp" />
+
+            <Button
+                android:id="@+id/button_3"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginRight="3pt"
+                android:layout_marginTop="3pt"
+                android:onClick="button_Click"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/button_4"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginRight="3pt"
+                android:layout_marginTop="3pt"
+                android:onClick="button_Click"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <Button
+                android:id="@+id/button_5"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginRight="3pt"
+                android:layout_marginTop="3pt"
+                android:onClick="button_Click"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <Button
+                android:id="@+id/button_6"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginRight="3pt"
+                android:layout_marginTop="3pt"
+                android:onClick="button_Click"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/button_7"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginRight="3pt"
+                android:layout_marginTop="3pt"
+                android:onClick="button_Click"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="176dp" />
+
+            <Button
+                android:id="@+id/button_8"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginRight="3pt"
+                android:layout_marginTop="3pt"
+                android:onClick="button_Click"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="176dp" />
+
+            <Button
+                android:id="@+id/button_9"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginRight="3pt"
+                android:layout_marginTop="3pt"
+                android:onClick="button_Click"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="176dp" />
+        </TableRow>
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
